@@ -130,6 +130,11 @@ a:active img {
     z-index: 1;
 }
 
+.header-video {
+    pointer-events: none;
+    user-select: none;
+}
+
 
 @media (max-width: 768px) {
     .header {

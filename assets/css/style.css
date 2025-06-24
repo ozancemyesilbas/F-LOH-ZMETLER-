@@ -1314,3 +1314,105 @@ footer {
         .service-box p {
             text-decoration: none !important;
         }
+
+
+
+                @media (max-width: 768px) {
+                    .video-overlay {
+                        padding: 10px;
+                    }
+        
+                    .service-box {
+                        width: 100%;
+                    }
+        
+                    .service-box p {
+                        font-size: 0.95rem;
+                        width: 100%;
+                    }
+        
+                    .cta-content h1,
+                    .cta-content p {
+                        text-align: center;
+                    }
+        
+                    .logo-grid {
+                        justify-content: center;
+                    }
+        
+                    .about-content {
+                        padding: 0 15px;
+                    }
+        
+                    .navbar-menu {
+                        font-size: 16px;
+                    }
+        
+                    .contact-info,
+                    .contact-form {
+                        padding: 20px 15px;
+                    }
+        
+                    .form-row {
+                        flex-direction: column;
+                    }
+        
+                    input,
+                    textarea {
+                        font-size: 0.95rem;
+                    }
+        
+                    .box p {
+                        font-size: 1rem;
+                        padding: 8px;
+                    }
+                }
+        
+                @media (max-width: 480px) {
+        
+                    .video-title,
+                    .video-subtitle {
+                        text-align: center;
+                    }
+        
+                    .service-box h3 {
+                        font-size: 1.2rem;
+                    }
+        
+                    .service-box p {
+                        font-size: 0.9rem;
+                    }
+        
+                    .cta-content h1 {
+                        font-size: 1.5em;
+                    }
+        
+                    .cta-content p {
+                        font-size: 0.95em;
+                    }
+        
+                    .box {
+                        height: auto;
+                    }
+        
+                    .box img {
+                        height: auto;
+                    }
+        
+                    .box p {
+                        padding: 15px;
+                    }
+        
+                    .logo-item img {
+                        max-width: 100px;
+                    }
+        
+                    .navbar-toggle {
+                        font-size: 28px;
+                    }
+        
+                    .whatsapp-icon {
+                        width: 48px;
+                        height: 48px;
+                    }
+                }
